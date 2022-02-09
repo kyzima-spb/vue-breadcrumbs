@@ -1,0 +1,29 @@
+{
+  "name": "@kyzima-spb/vue-breadcrumbs",
+  "version": "1.0.0",
+  "description": "Vue.js breadcrumbs component within Vuex",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyzima-spb/vue-breadcrumbs.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vuex",
+    "nuxt",
+    "nuxtjs"
+  ],
+  "author": "Kirill Vercetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyzima-spb/vue-breadcrumbs/issues"
+  },
+  "homepage": "https://github.com/kyzima-spb/vue-breadcrumbs#readme"
+}
