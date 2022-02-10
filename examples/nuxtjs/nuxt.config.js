@@ -25,7 +25,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/breadcrumbs',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -39,9 +38,16 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    'vue-breadcrumbs/nuxt',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
-}
+  },
+
+  vueBreadcrumbs: {
+    breadcrumbs: {
+      'index': {text: 'Главная'},
+    },
+  },
+};
