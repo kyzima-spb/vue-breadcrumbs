@@ -48,6 +48,7 @@ export default {
   vueBreadcrumbs: {
     breadcrumbs: {
       'index': {text: 'Главная'},
+      'accessories': {text: 'Комплектующие'},
     },
   },
 };

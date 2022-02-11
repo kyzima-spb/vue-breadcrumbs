@@ -4,6 +4,6 @@
 
 <script>
   export default {
-    name: 'AccessoriesPage',
+    name: 'AccessoriesSection',
   };
 </script>
