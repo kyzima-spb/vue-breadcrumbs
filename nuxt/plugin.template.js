@@ -1,5 +1,5 @@
-import Breadcrumbs from 'vue-breadcrumbs';
-import makeBreadcrumbsStore from 'vue-breadcrumbs/store';
+import Breadcrumbs from '@kyzima-spb/vue-breadcrumbs';
+import { makeBreadcrumbsStore } from '@kyzima-spb/vue-breadcrumbs';
 import Vue from 'vue';
 
 

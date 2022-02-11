@@ -38,7 +38,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    'vue-breadcrumbs/nuxt',
+    '@kyzima-spb/vue-breadcrumbs/nuxt',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
